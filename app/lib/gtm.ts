@@ -1,7 +1,7 @@
 // GTM用のdataLayerの型定義
 declare global {
   interface Window {
-    dataLayer: any[];
+    dataLayer?: any[];
   }
 }
 
